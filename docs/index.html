@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Iliana </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.13.0/lottie.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="hero">
+
+
+        <div class="animation" id="animation-container"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('animation-container'),
+                path: '../css/assets/animation_landingpage.json',
+                render: 'svg',
+                loop: false,
+                autoplay: true,
+            });
+        </script>
+
+        <link rel="stylesheet" href="/css/header.css">
+
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-portfolio">
+                    <a href="/">Portfolio</a>
+                </li>
+                <li class="nav-projekte">
+                    <a href="/projects">Projekte</a>
+                </li>
+                <li class="nav-ueber-mich">
+                    <a href="/about">Über mich</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    </div>
+
+
+    <div class="article-container">
+
+        <a href="/projects" style="text-decoration: none; color: #000;">
+            <div class="projekte-container">
+                <img src="../images/Pfeil.png" alt="">
+
+                <article class="projekte">
+                    <div class="projekte-text">
+                        <h1>Projekte</h1>
+                        <hr>
+                        <p>Von Print bis Digital – entdecke meine Projekte und sieh, wie ich Layout, Bildbearbeitung
+                            und Interaktionsdesign kombiniere.</p>
+                    </div>
+                </article>
+            </div>
+        </a>
+
+
+        <a href="/about" style="text-decoration: none; color: #000;">
+            <div class="ueber-mich-container">
+                <img src="../images/Pfeil.png" alt="">
+
+                <article class="ueber-mich">
+                    <div class="ueber-mich-text">
+                        <h1>Über mich</h1>
+                        <hr>
+                        <p>Schon während meiner Ausbildung als Polygrafin habe ich meine Leidenschaft für Layouts und
+                            Bildbearbeitung entdeckt. Heute kombiniere ich dieses Wissen mit meinem HF-Studium in
+                            Interaction Design, um digitale Erlebnisse zu gestalten, die nicht nur gut aussehen, sondern auch
+                            intuitiv bedienbar sind.</p>
+                    </div>
+                </article>
+            </div>
+        </a>
+
+
+    </div>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <footer>
+        <div class="credits">
+            <p>© 2025 Iliana Iseli</p>
+        </div>
+        <div class="mail">
+            <p>iliana.iseli@quickline.ch</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

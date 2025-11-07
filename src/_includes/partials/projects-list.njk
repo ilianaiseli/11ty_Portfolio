@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/style.css">
+
+
+ <main class="projekt-teaser-container">
+        <div class="projekt-teaser-subcontainer">
+            {% for project in collections.projects %}
+
+            <div class="projekt-teaser">
+                <img src="{{ project.data.image }}" alt="">
+
+                <hr>
+
+                <p class="kategorie"> {{ project.data.category }} </p>
+                <p class="projekt-titel"> {{ project.data.title }} </p>
+            </div>
+            {% endfor %}
+    </main>
+
+<p class="theme-debug level3">/projects-list.njk</p>
